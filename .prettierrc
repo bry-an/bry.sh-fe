@@ -1,0 +1,14 @@
+{
+    "printwidth": 100,
+    "tabwidth": 2,
+    "usetabs": false,
+    "semi": false,
+    "singlequote": true,
+    "trailingcomma": "es5",
+    "bracketspacing": true,
+    "jsxbracketsameline": false,
+    "arrowparens": "always",
+    "prosewrap": "never",
+    "htmlwhitespacesensitivity": "strict",
+    "endofline": "lf"
+  }
