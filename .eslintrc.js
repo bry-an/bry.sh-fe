@@ -22,7 +22,6 @@ module.exports = {
     'vue/require-default-prop': 'error',
     camelcase: 'warn',
     'max-len': 'off',
-    'no-console': 'error',
     'no-debugger': 'warn',
     'no-param-reassign': 'off',
     'no-shadow': 'off',
