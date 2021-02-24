@@ -14,6 +14,7 @@ body {
   background-color: $dark-purple;
 }
 .app-wrapper {
+  padding-top: 4rem;
   width: 80%;
   margin: auto;
 }
