@@ -1,8 +1,9 @@
 <template>
   <div class="home">
-    <div class="title">
-      <h1>bry.sh/</h1>
-      <h4>Custom url shortener</h4>
+    <div>
+      <h1 class="title">
+        bry.sh/
+      </h1> <span class="subtitle">custom-url-shortener</span>
     </div>
     <div class="input">
       <h5>Lucky Mode</h5>
@@ -178,6 +179,9 @@ export default {
   font-family: "PT Mono", monospace;
   color: $light-green;
 }
+.title {
+  display: inline;
+}
 .input {
   margin-top: 2rem;
 
@@ -206,8 +210,8 @@ export default {
   }
 }
 
-.title {
-  text-align: center;
+.subtitle {
+  font-size: $font-xl;
 }
 label {
   display: block;
