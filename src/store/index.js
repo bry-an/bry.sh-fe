@@ -8,12 +8,12 @@ export default createStore({
   },
   actions: {
     shortenUrl(context, url) {
-      return axios.post('http://localhost:3001/add', {
+      return axios.post('https://api.bry.sh/add', {
         url,
       })
     },
     shortenCustomUrl(context, {slug, url}) {
-      return axios.post('http://localhost:3001/add/custom', {
+      return axios.post('https://api.bry.sh/add/custom', {
         slug,
         url,
       })
